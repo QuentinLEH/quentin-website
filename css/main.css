@@ -1,6 +1,7 @@
 /* Place CSS styles here */
 body {
-    color: black;
+    color: whitesmoke;
     background-color: #d9b6e2;
     font-size: 30px;
+    background-image: url(../img/fire_b.jpg);
 }
