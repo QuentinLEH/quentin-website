@@ -5,3 +5,11 @@ body {
     font-size: 30px;
     background-image: url(../img/fire_b.jpg);
 }
+
+.snowday {
+    color: purple;
+}
+
+.snowangel {
+    border: 10px solid white ;
+}
