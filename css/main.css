@@ -1,4 +1,8 @@
 /* Place CSS styles here */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: whitesmoke;
     background-color: #d9b6e2;
@@ -12,4 +16,8 @@ body {
 
 .snowangel {
     border: 10px solid white ;
+}
+
+.thursday-image {
+    width: 20px;
 }
