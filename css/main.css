@@ -3,11 +3,26 @@ html {
     scroll-behavior: smooth;
 }
 
+a:focus-visible {
+    border: 3px solid fuchsia;
+}
+
+a:hover {
+    color: fuchsia;
+}
+
 body {
-    color: whitesmoke;
-    background-color: #d9b6e2;
+    font-family: Helvetica, sans-serif;
+    margin: 10px;
+    color: rgb(37, 37, 37);
+    background-color: #dddddd;
     font-size: 30px;
-    background-image: url(../img/fire_b.jpg);
+}
+
+header {
+    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .snowday {
