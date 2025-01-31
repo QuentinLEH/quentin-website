@@ -13,10 +13,16 @@ a:hover {
 
 body {
     font-family: Helvetica, sans-serif;
-    margin: 10px;
-    color: rgb(37, 37, 37);
+    margin: 20px;
+    color: #252525;
     background-color: #dddddd;
-    font-size: 30px;
+    font-size: 14px;
+    font-weight: light 300;
+}
+
+a {
+    color: #059c00;
+    text-decoration: underline;
 }
 
 header {
@@ -25,8 +31,90 @@ header {
     align-items: center;
 }
 
+.face-link {
+    display: flex;
+}
+
+.face-logo a:hover {
+    color: initial;
+    opacity: 50%;
+    text-decoration: none;
+    background: none;
+}
+
+.container-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #252525;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    background-image: url('../img/img-ny-view.jpg');
+    opacity: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.zone-c1 {
+    color: #dddddd;
+    font-size: 30px;
+    text-shadow: #000000 1px 0 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container-2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid #252525;
+}
+
+.top-content-c2 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline overline;
+    text-underline-offset: 4px;
+}
+
+.zone-c2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.list-c2 {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.list-item-c2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(33.33333% - 28px);
+}
+
+.img-list-c2 {
+    width: 100%;
+}
+
+.list-item-c2 a {
+    color: #252525;
+    text-decoration: none;
+    background: none;
+}
+
+.list-item-c2 a:hover {
+    color: initial;
+    opacity: 50%;
+    text-decoration: none;
+    background: none;
+}
+
 .snowday {
-    color: purple;
+    color: #000000;
 }
 
 .snowangel {
