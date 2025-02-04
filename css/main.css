@@ -43,6 +43,10 @@ header {
     background: none;
 }
 
+h1 {
+    font-size: 25px;
+}
+
 .sm-bar {
     position: absolute;
     right: 0px;
@@ -86,7 +90,7 @@ ul.social-media-list a:hover {
 
 .zone-c1 {
     color: #dddddd;
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: #000000 1px 0 10px;
     position: absolute;
     top: 50%;
