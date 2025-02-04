@@ -3,7 +3,7 @@ html {
 }
 
 a:focus-visible {
-    border: 3px solid #059c00;
+    border: 5px solid #059c00;
 }
 
 a:hover {
