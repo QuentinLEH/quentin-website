@@ -4,15 +4,15 @@ html {
 }
 
 a:focus-visible {
-    border: 3px solid fuchsia;
+    border: 3px solid #059c00;
 }
 
 a:hover {
-    color: fuchsia;
+    color: #059c00;
 }
 
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: "Helvetica", sans-serif;
     margin: 20px;
     color: #252525;
     background-color: #dddddd;
@@ -29,6 +29,7 @@ header {
     text-align: left;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .face-link {
@@ -40,6 +41,33 @@ header {
     opacity: 50%;
     text-decoration: none;
     background: none;
+}
+
+.sm-bar {
+    position: absolute;
+    right: 0px;
+}
+
+ul.social-media-list img {
+    padding: 5px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+}
+
+ul.social-media-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+}
+
+ul.social-media-list li {
+    display: inline-block;
+}
+
+ul.social-media-list a:hover {
+    opacity: 50%;
 }
 
 .container-1 {
@@ -68,11 +96,11 @@ header {
 
 .container-2 {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border: 1px solid #252525;
 }
 
-.top-content-c2 {
+.top-content {
     font-size: 20px;
     text-align: center;
     text-decoration: underline overline;
@@ -113,14 +141,31 @@ header {
     background: none;
 }
 
-.snowday {
-    color: #000000;
+.container-3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid #252525;
 }
 
-.snowangel {
-    border: 10px solid white ;
+.number-list a {
+    color: #252525;
+    text-decoration: none;
+    background: none;
 }
 
-.thursday-image {
-    width: 20px;
+.number-list a:hover {
+    color: initial;
+    opacity: 50%;
+    text-decoration: none;
+    background: none;
+}
+
+.li-list {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.p-list {
+    margin-top: 2px;
 }
